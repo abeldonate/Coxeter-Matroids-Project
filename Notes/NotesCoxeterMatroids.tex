@@ -279,6 +279,44 @@ The height function $h$ is said to be \textit{M-convex} if the regular subdivisi
 
 A subset $S$ of points is a (lower) regular subdivision induced by $h$ if the convex hull of $S$ is described by the lower convex hull of the polytope $T\times h(T)$ 
 
+\begin{definition}[3-Term Plücker Relations] Let $\omega $ be a height function.
+For each $S\in \binom{[n]}{ d-2}$ and $i, j, k, l \not\in S$ the minimum
+\[
+\min (h(S_{ij}) + h(S_{kl}), h(S_{ik}) + h(S_{jl}), h(S_{il}) +  h(S_{jl}))
+\] 
+is attained at least twice.
+\end{definition}
+
+\begin{theorem}[] A height function induces a permutahedral regular division if the \textbf{3-Term Plücker Relations} (3TPR) holds.
+\end{theorem}
+
+\textbf{Proof.} 
+We first translate what does it mean for the set of vertices $S_{ij}, S_{ik}, S_{il}, S_{jk}, S_{jl}, S_{kl}$ to be a regular subdivision induced by $h$. Trivially these 6 vertices form a subpermutahedron of  $P$. 
+
+Now we have to see that the convex hull of the vertices is a lower convex hull of all the points. This means we can assign it a linear functional $\varphi = (\varphi _1, \ldots, \varphi_{n}, \varphi _{n+1}), \ \varphi _{n+1}>0$ that minimizes the set of 6 points over all the points. The consequence is that the functional evaluated in each of the 6 vertices should be equal. We abbreviate $h_{ij} := h(S_{ij})$
+
+\begin{equation}
+\varphi _{i_1} + \varphi _{i_2} + \varphi _{n+1}h_{i_{1}i_{2}} = \varphi _{i_3} + \varphi _{i_4} + \varphi _{n+1}h_{i_{3}i_{4}} \ \forall i_1, i_2 ,i_3, i_4 \in {i, j, k, l}
+\end{equation}
+\begin{equation}
+\varphi _{i_1} - \varphi _{i_3} = \varphi _{n+1} (h_{i_3i_2}-h_{i_1i_2})
+\end{equation}
+\begin{equation}
+  (\varphi _{i_2}-\varphi _{i_1})(h_{i_5i_7} - h_{i_6i_7}) = 
+  (\varphi _{i_6}-\varphi _{i_5})(h_{i_1i_3} - h_{i_2i_3})
+\end{equation}
+Making now $i_1 = i_5$ and $i_2=i_6$ yields
+\begin{equation}
+h_{i_5i_7} - h_{i_{6}i_7} = h_{i_1i_3}-h_{i_2i_3} \quad or \quad \varphi _{i_2} = \varphi _{i_6}
+\end{equation}
+
+We observe that if all $\varphi _i$ are equal, then all the $h_{ij}$ should be equal by (1) and Plücker relations trivially hold.
+
+Now suppose there is a
+
+
+
+
 
 
 \end{document}

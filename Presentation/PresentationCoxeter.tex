@@ -1,0 +1,272 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+
+
+\newcommand{\incfig}[1]{%
+\center
+\def\svgwidth{0.9\columnwidth}
+\import{./figures/}{#1.pdf_tex}
+}
+
+
+\newcommand{\incimg}[1]{%
+\center
+\includegraphics[width=0.9\columnwidth]{images/#1}
+}
+
+
+\renewcommand{\v}{\vspace{1em}}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{listings}
+\usepackage{fancyvrb}
+\usepackage{enumitem}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{multicol}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{wrapfig}
+\usepackage{amssymb}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,epsfig,epstopdf,titling,url,array}
+\usepackage{hyperref}
+\usepackage{eso-pic}
+\usepackage{pgf}
+\usepackage{tikz}
+\usepackage{tikz-cd}
+\usepackage{graphicx}
+
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{xcolor}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+
+
+%\pdfsuppresswarningpagegroup=1
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{Coxeter Matroids} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Abel Doñate Muñoz} % Your name
+\institute[UPC] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+Universitat Politècnica de Catalunya \\ % Your institution for the title page
+\medskip
+\textit{abel.donate.munoz@gmail.com} % Your email address
+}
+\date{\today} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+\begin{frame}
+\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\section{What is a matroid?} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
+
+\subsection{Abstract definition}
+
+\begin{frame}
+\frametitle{What is a matroid?}
+\begin{block}{Abstract definition (Basis)}
+  Given a ground set $[n]$, a subset $\mathcal{B}(M)\subseteq [n]$ is the set of basis of a matroid $M$ if satisfies the exchange axiom:
+   \[
+  \ \forall A, B \in \mathcal{B}(M), a \in A-B \ \exists b\in B-A \ : \ A-\{a\}\cup {b} \in \mathcal{B}(M)
+  \] 
+\end{block}
+It can be seen that the cardinal of the elements of $\mathcal{B}(M)$ must be the same. We will call it $k = \rank(M)$
+
+The elements of  $\mathcal{B}(M)$ are called \textit{Maximal independent sets}. We will notice the intuition of this naming in the next slide.
+\end{frame}
+
+%\subsection{Representable Matroids}
+\begin{frame}
+\frametitle{Representable Matroids}
+Matroids can be represented in several ways. The following diagram shows the different types of matroids and its relations.
+\begin{columns}[c]
+\column{0.7\textwidth}
+\begin{block}{Diagram of matroids}
+\incfig{VennMatroids}
+\end{block}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Representable Matroids}
+\begin{block}{Definition}
+  In a representable matroid we assign a vector to every element of the ground set $i\in [n] \to  v_i \in V$. Now all the maximal independent sets of the matroids can be thought as sets of vectors that are a basis of a vector subspace $W\subseteq V$ of rank $k$.
+\end{block} 
+\begin{columns}[c]
+\column{0.4\textwidth}
+\begin{block}{Example}
+\incfig{RepresentableMatorid}
+\end{block}
+\column{0.5\textwidth}
+\begin{block}{Independent sets}
+We notice that $v_1, v_2, v_3$ lie all in the same plane, so they are linearly dependent.
+We can make a basis of $\mathbb{R}^3$ in the following ways
+\[
+\langle v_1, v_2, v_4 \rangle , 
+\langle v_1, v_3, v_4 \rangle ,
+\langle v_2, v_3, v_4 \rangle
+\] 
+So the basis of the matroid are
+\[
+  124, 134, 234
+\] 
+\end{block}
+\end{columns}
+\end{frame}
+
+\subsection{Matroid base polytope}
+\begin{frame}
+\begin{block}{Definition}
+A matroid (base) polytope is a geometrical representation of the basis of a matroid in a vector space. 
+
+Given a matroid $M$ of rank $k$ and the set of basis $\mathcal{B}(M)\subseteq \binom{[n]}{k}$, we assign each basis to its indicator vector $A\in \mathcal{B}(M) \to e_A = e_{i_1} + \ldots + e_{i_k}\in V$. Thus, the convex hull of such vectors is a polytope $P\subseteq \Delta(n,k)$ 
+\end{block}  
+\begin{columns}[c]
+\column{0.4\textwidth}
+\begin{block}{Example}
+  \[
+  \mathcal{B}(M) = \{12, 13, 14, 23, 24\}
+  \] 
+\incfig{ExampleMatroidPolytope}
+\end{block}
+\column{0.5\textwidth}
+\begin{block}{Matroid polytope}
+  The polytope will have the following vertices:
+  \begin{align*}
+    12 \to (1, 1, 0, 0)\\
+	13 \to (1, 0, 1, 0)\\
+	14 \to (1, 0, 0, 1)\\
+	23 \to (0, 1, 1, 0)\\
+	24 \to  (0, 1, 0, 1)
+  \end{align*}
+\end{block}
+\end{columns}
+
+\end{frame}
+
+
+
+%------------------------------------------------
+
+\begin{frame}{Bibliografía}
+\footnotesize{
+\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
+\bibitem{p1} Fernando Bombal (2012)
+\newblock La cuadratura del círculo: Historia de una obsesión
+\newblock \emph{Real Academia de las Ciencias} Vol. 105, No 2 (2012), 241-258
+\end{thebibliography}
+
+\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
+\bibitem{p2} George E. Martin (1991)
+\newblock Geometric Constructions
+\newblock \emph{Springer} ISBN 978-1-4612-6845-1
+\end{thebibliography}
+
+}
+\end{frame}
+
+%------------------------------------------------
+
+\end{document}

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="VennMatroids.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2445851"
+     inkscape:cx="452.76133"
+     inkscape:cy="489.72143"
+     inkscape:window-width="1904"
+     inkscape:window-height="1062"
+     inkscape:window-x="1927"
+     inkscape:window-y="8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#4c566a;fill-opacity:0.94902;stroke:#000000;stroke-width:0.334531"
+       id="path63"
+       cx="131.40424"
+       cy="112.88613"
+       rx="68.972"
+       ry="46.047413" />
+    <ellipse
+       style="fill:#5e81ac;fill-opacity:0.94902;stroke:#000000;stroke-width:0.312803"
+       id="path953"
+       cx="119.92168"
+       cy="112.89691"
+       rx="52.665119"
+       ry="33.013172" />
+    <ellipse
+       style="fill:#a3be8c;fill-opacity:0.94902;stroke:#000000;stroke-width:0.23102"
+       id="path1009"
+       cx="107.2777"
+       cy="113.01219"
+       rx="36.703777"
+       ry="21.433125" />
+    <ellipse
+       style="fill:#bf616a;fill-opacity:0.94902;stroke:#000000;stroke-width:0.224301"
+       id="path61"
+       cx="90.029594"
+       cy="113.51595"
+       rx="14.587572"
+       ry="16.582979" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+       x="186.58937"
+       y="109.12746"
+       id="text1232"><tspan
+         sodipodi:role="line"
+         id="tspan1230"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="186.58937"
+         y="109.12746">All </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="186.58937"
+         y="116.18301"
+         id="tspan1284">matroids</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+       x="157.49059"
+       y="110.62543"
+       id="text1232-3"><tspan
+         sodipodi:role="line"
+         id="tspan1230-6"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="157.49059"
+         y="110.62543">Algebraic </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="157.49059"
+         y="117.68098"
+         id="tspan1284-7">matroids</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.50291px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:none;stroke-width:0.257949"
+       x="127.27762"
+       y="108.94318"
+       id="text1232-5"
+       transform="scale(0.97492648,1.0257184)"><tspan
+         sodipodi:role="line"
+         id="tspan1230-3"
+         style="font-size:5.50291px;text-align:center;text-anchor:middle;stroke-width:0.257949"
+         x="127.27762"
+         y="108.94318">Representable </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.50291px;text-align:center;text-anchor:middle;stroke-width:0.257949"
+         x="127.27762"
+         y="115.82182"
+         id="tspan1284-5">matroids</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+       x="88.863403"
+       y="111.7873"
+       id="text1232-6"><tspan
+         sodipodi:role="line"
+         id="tspan1230-2"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="88.863403"
+         y="111.7873">Graphic </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="88.863403"
+         y="118.84285"
+         id="tspan1284-9">matroids</tspan></text>
+  </g>
+</svg>
