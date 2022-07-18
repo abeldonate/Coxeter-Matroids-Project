@@ -9,18 +9,27 @@
 \headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Abstract definition}}
 \headcommand {\slideentry {1}{1}{1}{3/3}{Abstract definition}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{1}{2}{4/4}{Abstract definition}{0}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{4}{Representable Matroids}}
+\headcommand {\slideentry {1}{2}{1}{4/4}{Representable Matroids}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\slideentry {1}{1}{3}{5/5}{Abstract definition}{0}}
+\headcommand {\slideentry {1}{2}{2}{5/5}{Representable Matroids}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@subsectionpages {3}{5}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{Matroid base polytope}}
-\headcommand {\slideentry {1}{2}{1}{6/6}{Matroid base polytope}{0}}
+\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{6}{Matroid base polytope}}
+\headcommand {\slideentry {1}{3}{1}{6/6}{Matroid base polytope}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {1}{2}{2}{7/7}{Matroid base polytope}{0}}
+\headcommand {\beamer@sectionpages {3}{6}}
+\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\sectionentry {2}{Coxeter Groups}{7}{Coxeter Groups}{0}}
+\headcommand {\beamer@subsectionpages {7}{6}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{7}{Definition}}
+\headcommand {\slideentry {2}{1}{1}{7/7}{Definition}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@partpages {1}{7}}
-\headcommand {\beamer@subsectionpages {6}{7}}
-\headcommand {\beamer@sectionpages {3}{7}}
-\headcommand {\beamer@documentpages {7}}
-\headcommand {\gdef \inserttotalframenumber {7}}
+\headcommand {\slideentry {2}{1}{2}{8/8}{Definition}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@partpages {1}{8}}
+\headcommand {\beamer@subsectionpages {7}{8}}
+\headcommand {\beamer@sectionpages {7}{8}}
+\headcommand {\beamer@documentpages {8}}
+\headcommand {\gdef \inserttotalframenumber {8}}

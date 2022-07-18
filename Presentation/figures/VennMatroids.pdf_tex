@@ -54,9 +54,9 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{VennMatroids.pdf}}%
-    \put(0.89908679,0.36139632){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}All \\matroids\end{tabular}}}}%
-    \put(0.68865076,0.35056333){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Algebraic \\matroids\end{tabular}}}}%
-    \put(0.44707844,0.34246668){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Representable \\matroids\end{tabular}}}}%
-    \put(0.19235403,0.34216092){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Graphic \\matroids\end{tabular}}}}%
+    \put(0.79541983,0.33865058){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}All \\matroids\end{tabular}}}}%
+    \put(0.57315347,0.33781657){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Algebraic \\matroids\end{tabular}}}}%
+    \put(0.29767195,0.33516597){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Representable \\matroids\end{tabular}}}}%
+    \put(0.08478196,0.33802948){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Graphic \\matroids\end{tabular}}}}%
   \end{picture}%
 \endgroup%
