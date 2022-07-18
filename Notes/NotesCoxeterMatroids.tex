@@ -290,29 +290,51 @@ is attained at least twice.
 \begin{theorem}[] A height function induces a permutahedral regular division if the \textbf{3-Term Plücker Relations} (3TPR) holds.
 \end{theorem}
 
-\textbf{Proof.} 
-We first translate what does it mean for the set of vertices $S_{ij}, S_{ik}, S_{il}, S_{jk}, S_{jl}, S_{kl}$ to be a regular subdivision induced by $h$. Trivially these 6 vertices form a subpermutahedron of  $P$. 
 
-Now we have to see that the convex hull of the vertices is a lower convex hull of all the points. This means we can assign it a linear functional $\varphi = (\varphi _1, \ldots, \varphi_{n}, \varphi _{n+1}), \ \varphi _{n+1}>0$ that minimizes the set of 6 points over all the points. The consequence is that the functional evaluated in each of the 6 vertices should be equal. We abbreviate $h_{ij} := h(S_{ij})$
+\textbf{Proof}
 
-\begin{equation}
-\varphi _{i_1} + \varphi _{i_2} + \varphi _{n+1}h_{i_{1}i_{2}} = \varphi _{i_3} + \varphi _{i_4} + \varphi _{n+1}h_{i_{3}i_{4}} \ \forall i_1, i_2 ,i_3, i_4 \in {i, j, k, l}
-\end{equation}
-\begin{equation}
-\varphi _{i_1} - \varphi _{i_3} = \varphi _{n+1} (h_{i_3i_2}-h_{i_1i_2})
-\end{equation}
-\begin{equation}
-  (\varphi _{i_2}-\varphi _{i_1})(h_{i_5i_7} - h_{i_6i_7}) = 
-  (\varphi _{i_6}-\varphi _{i_5})(h_{i_1i_3} - h_{i_2i_3})
-\end{equation}
-Making now $i_1 = i_5$ and $i_2=i_6$ yields
-\begin{equation}
-h_{i_5i_7} - h_{i_{6}i_7} = h_{i_1i_3}-h_{i_2i_3} \quad or \quad \varphi _{i_2} = \varphi _{i_6}
-\end{equation}
+We abbreviate $h_{ij} = h(S_{ij})$
 
-We observe that if all $\varphi _i$ are equal, then all the $h_{ij}$ should be equal by (1) and Plücker relations trivially hold.
+Suppose the 3TPR holds. Given the height function $h$ we fix a linear functional $\varphi = (\varphi _1, \ldots, \varphi _n, \varphi _{n+1})$ with $\varphi _{n+1}>0$ such that the regular division polytope $Q\subseteq P$ is given by
+\[
+Q = \{A\in M : \varphi (A, h(A)) \text{ is minimum}\}
+\] 
+We now can relabel the indexes of the elements of $Q$ and $\varphi $ removing all the terms that are $1$ or zero allways (when applying the functional the result is the same inside $Q$) and relabeling the remaining from $1$ to  $m$.
 
-Now suppose there is a
+In the cases $m = 2$ and  $m=3$ the subpolytope $Q$ is trivially permutahedral. For case $m\ge 4$ we pick 4 indexes $i, j, k, l$ of elements of $Q$ and $\varphi $. 
+
+We can assume without loss of generality that $S_{ij}, S_{kl} \in Q$ now we want to prove that exchange axiom is satisfied: i.e. whithout loss of generality $S_{ik}, S_{jl}\in Q$.
+
+We can express the 3TPR in the following way:
+\[
+  3TPR \iff h_{ij} + h_{kl} = h_{ik} + h_{jl}\le h_{il} + h_{jk}
+\] 
+
+The condition for $S_{ij}, S_{kl}$ to lie in a regular subdivision is that
+\[
+\varphi _i + \varphi _j + \varphi _{n+1} h_{ij} = 
+\varphi _k + \varphi _l + \varphi _{n+1} h_{kl} \le 
+\begin{cases}
+  \varphi _i + \varphi _k + \varphi _{n+1}h_{ik} (1)\\
+  \varphi _j + \varphi _l + \varphi _{n+1}h_{jl} (2)
+\end{cases}
+\] 
+This leads to the equations
+\begin{align*}
+ \varphi _j - \varphi _k \le \varphi _{n+1}(h_{ik}-h_{ij})  \\
+ \varphi _i - \varphi _l \le \varphi _{n+1}(h_{lj}-h_{ij})  \\
+ \varphi _l - \varphi _i \le \varphi _{n+1}(h_{ik}-h_{kl})  \\
+ \varphi _k - \varphi _j \le \varphi _{n+1}(h_{jl}-h_{kl})
+\end{align*}
+Summing up the equations we get
+\[
+0\le 2\varphi_{n+1}(h_{ik}+ h_{jl} - h_{ij}-h_{kl}) \Rightarrow h_{ij} + h_{kl} \le h_{ik} + h_{jl}
+\] 
+But this inequality should be an equality under de assumption of 3TPR, so all the above inequalities should be equalities, and (1) and (2) implies $S_{ik}, S_{jl}\in Q$
+
+
+
+
 
 
 
