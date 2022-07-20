@@ -36,6 +36,9 @@
 \newtheorem*{definition}{Definition}
 \newtheorem*{theorem}{Theorem}
 \newtheorem*{proposition}{Proposition}
+\newtheorem*{observation}{Observation}
+
+\newcommand{\bigslant}[2]{{\raisebox{.2em}{$#1$}\left/\raisebox{-.2em}{$#2$}\right.}}
 
 \newcommand{\incfig}[1]{%
 \center
@@ -267,14 +270,15 @@ so the construction correspond to the Dynkin diagram, and thus to the coxeter gr
 
 
 \section{Regular Subdivision and height functions}
+\subsection{Hypersymplex $\Delta(k, n)$}
 Given a set of points $T$, we define a height function as  $h:T \to \mathbb{R}$.
 
 The height function $h$ is said to be \textit{M-convex} if the regular subdivisions induced by $h$ are permutahedral.
 
 A subset $S$ of points is a (lower) regular subdivision induced by $h$ if the convex hull of $S$ is described by the lower convex hull of the polytope $T\times h(T)$ 
 
-\begin{definition}[3-Term Plücker Relations] Let $\omega $ be a height function.
-For each $S\in \binom{[n]}{ d-2}$ and $i, j, k, l \not\in S$ the minimum
+\begin{definition}[3-Term Plücker Relations] Let $\omega $ be an height function on $\Delta(d, n)$.
+3TPR holds if for each $S\in \binom{[n]}{ d-2}$ and $i, j, k, l \not\in S$ the minimum
 \[
 \min (h(S_{ij}) + h(S_{kl}), h(S_{ik}) + h(S_{jl}), h(S_{il}) +  h(S_{jl}))
 \] 
@@ -326,11 +330,52 @@ Summing up the equations we get
 \] 
 But this inequality should be an equality under de assumption of 3TPR, so all the above inequalities should be equalities, and (1) and (2) implies $S_{ik}, S_{jl}\in Q$
 
+\qed
 
+\subsection{Hypercube $\square_n$}
 
+Now we switch from type $A_n$ coxeter groups to type $B_n$
 
+\begin{definition}[Hypercube]
+$\square_n  = conv\{x: x_i = \pm 1 \ \forall i \in [n]\}$
+\end{definition}
 
+We notice the following injection, labeling the indexes of $\Delta(n, 2n)$ as  $-n, -n+1,  \ldots -1, 1, 2, \ldots ,n$:
+\begin{align*}
+  V(\square_n) &\to V(\Delta(n, 2n)) \\
+  x_i = 1 & \mapsto y_i=1, y_{-i}=0 \\
+  x_i = -1 & \mapsto y_{-i}=1, y_{i}=0 \\
+\end{align*}
 
+If we restrict the of $\Delta(n, 2n)$ that fulfill $y_i + y_{-i} = 1$ we get the bijection
+\[
+\square_n \cong \bigslant{\Delta(n, 2n)}{y_i+y_{-i}=1}
+\] 
+
+\begin{observation}
+  Edges parallel to $e_j$ in  $\square_n$ $\iff$ edges parallel to $e_j-e_{-j}$ in $\Delta(n, 2n)$
+\end{observation}
+
+\begin{definition}[Cubohedral]
+Is the convex hull of a subset of vertices of the hypercube $C\subseteq \square_n$ whose edges are parallel to $e_j$
+\end{definition}
+
+We now want to find a relation similar to 3TPR in the case of  $B_n$ coxeter groups.
+
+Since the edges of $C$ could be identified with the vertices of a subset $P\subseteq \Delta(n, 2n)$, and the edges of this subset are parallel to $e_j-e_{-j}$ by the observation, then $P$ is permutahedral.
+
+Now we consider a height function on $h:\square_n \to \mathbb{R}$ which we can identify as a height funcion $h': \bigslant{\Delta(n, 2n)}{y_i+i_{-i} = 1}$. Thus, we can apply 3TPR to 
+
+\textbf{Notation:} we say $h_{i-j}$ is the height function $h(S_{i-j})$, where $T_{i-j}$ is the element $T$ such that $x_i = 1, x_j = -1$.
+
+\begin{definition}[3-Term Plücker Relations] Let $h$ be an height function on $\square_n$.
+3TPR holds if for each $T\in \binom{[n]}{d-2}$ and $i, j$
+\[
+h(T_{ij})+ h(T_{-i-j}) = h(T_{-ij}) + h(T_{i-j})
+\] 
+\end{definition}
+
+\textbf{Proof.}
 
 
 
