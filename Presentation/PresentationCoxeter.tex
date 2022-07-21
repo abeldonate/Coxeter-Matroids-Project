@@ -255,10 +255,12 @@ Given a matroid $M$ of rank $k$ and the set of basis $\mathcal{B}(M)\subseteq \b
 \subsection{Definition}
 \begin{frame}{Coxeter Groups}
   \begin{block}{Definition}
-    Given a set of generators $S = \{s_i\}$, a Coxeter group is a group described by its presentation
-	\[
-	\langle s_1, s_2, \ldots, s_n | (s_is_j)^{m_{ij} = 1} \rangle , \quad m_{ii} = 1, \quad m_{ij}\ge 2 \ \forall i\neq j
-	\] 
+    Given a set of generators $S = \{s_i\}$, a Coxeter group is a group whose presentation $\langle s_1, s_2, \ldots, s_n  \rangle $ satisfy
+\begin{itemize}[topsep=-6pt, itemsep=0pt]
+  \item $(s_is_j)^{m_{ij}} = 1$
+  \item $m_{ii} = 1$
+  \item $m_{ij}\ge 2 \ \forall i\neq 2$
+\end{itemize}
   \end{block}
 Coxeter groups are usually thought as finite groups of reflections into a vector space $V$. Each generator $s_i$ is associated with a hyperplane $\rho_i$ such as $s_i$ is the reflection by $\rho _i$.
 \begin{block}{Dynkin diagram}
