@@ -115,10 +115,11 @@
 \usepackage{eso-pic}
 \usepackage{pgf}
 \usepackage{tikz}
-\usepackage{tikz-cd}
 \usepackage{graphicx}
+\usepackage{tikz-cd}
 
 \usepackage{import}
+\usepackage{xifthen}
 \usepackage{pdfpages}
 \usepackage{transparent}
 \usepackage{xcolor}
@@ -262,7 +263,22 @@ Given a matroid $M$ of rank $k$ and the set of basis $\mathcal{B}(M)\subseteq \b
   \item $m_{ij}\ge 2 \ \forall i\neq 2$
 \end{itemize}
   \end{block}
+\begin{columns}[c]
+\column{0.3\textwidth}
+\begin{block}{Example}
+\incfig{CoxeterHyperplanes}
+\end{block}
+\column{0.65\textwidth}
+\begin{block}{Hyperplanes}
 Coxeter groups are usually thought as finite groups of reflections into a vector space $V$. Each generator $s_i$ is associated with a hyperplane $\rho_i$ such as $s_i$ is the reflection by $\rho _i$.
+
+Then, if we consider a vector in the vector space $v$, we can define the action of each element $s_i$ of the group over $v$ as the reflections by $\rho _i$. $s_iv = v - 2\frac{\langle \rho_i, v \rangle }{\langle \rho _i, \rho _i \rangle}\rho _i$
+\end{block}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Dynkin diagrams}
+
 \begin{block}{Dynkin diagram}
  We can assign every Coxeter group a diagram in the following way:
  \begin{itemize}[topsep=-6pt, itemsep=0pt]
@@ -271,8 +287,14 @@ Coxeter groups are usually thought as finite groups of reflections into a vector
    \item We label the edges with  $m_{ij}$ if it is $\ge 4$
  \end{itemize}
 \end{block}
-\end{frame}
+  \begin{columns}[c]
+    \column{0.7\textwidth}
+\begin{block}{Examples of Dynkin diagrams} 
+  \incfig{TypesCoxeter}
+\end{block}
+  \end{columns}
 
+\end{frame}
 
 %------------------------------------------------
 
@@ -292,6 +314,20 @@ Coxeter groups are usually thought as finite groups of reflections into a vector
 
 }
 \end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 %------------------------------------------------
 

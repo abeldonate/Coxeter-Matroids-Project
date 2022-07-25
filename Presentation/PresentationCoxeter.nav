@@ -28,8 +28,10 @@
 \headcommand {\beamer@framepages {7}{7}}
 \headcommand {\slideentry {2}{1}{2}{8/8}{Definition}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@partpages {1}{8}}
-\headcommand {\beamer@subsectionpages {7}{8}}
-\headcommand {\beamer@sectionpages {7}{8}}
-\headcommand {\beamer@documentpages {8}}
-\headcommand {\gdef \inserttotalframenumber {8}}
+\headcommand {\slideentry {2}{1}{3}{9/9}{Definition}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@partpages {1}{9}}
+\headcommand {\beamer@subsectionpages {7}{9}}
+\headcommand {\beamer@sectionpages {7}{9}}
+\headcommand {\beamer@documentpages {9}}
+\headcommand {\gdef \inserttotalframenumber {9}}
