@@ -24,13 +24,13 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.84096521"
-     inkscape:cx="208.68878"
-     inkscape:cy="152.20606"
-     inkscape:window-width="1904"
-     inkscape:window-height="1025"
-     inkscape:window-x="7"
-     inkscape:window-y="45"
+     inkscape:zoom="0.5946522"
+     inkscape:cx="547.37879"
+     inkscape:cy="284.19974"
+     inkscape:window-width="948"
+     inkscape:window-height="527"
+     inkscape:window-x="2883"
+     inkscape:window-y="543"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -93,47 +93,47 @@
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path713-2"
        cx="35.742756"
-       cy="51.256329"
+       cy="46.273212"
        r="3.1255574" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path713-5-7"
        cx="65.368904"
-       cy="51.388622"
+       cy="46.405506"
        r="3.1255574" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path713-3-0"
        cx="94.14447"
-       cy="51.388622"
+       cy="46.405506"
        r="3.1255574" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path713-56-9"
        cx="122.20557"
-       cy="51.266479"
+       cy="46.283363"
        r="3.1255574" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.244283px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 32.869178,51.388619 H 94.144467"
+       d="M 32.869178,46.405502 H 94.144467"
        id="path815-3" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path870-6"
        cx="102.74039"
-       cy="51.510761"
+       cy="46.527645"
        r="0.97967005" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path870-2-0"
        cx="108.2212"
-       cy="51.718079"
+       cy="46.734962"
        r="0.97967005" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path870-9-6"
        cx="113.70201"
-       cy="51.510761"
+       cy="46.527645"
        r="0.97967005" />
     <text
        xml:space="preserve"
@@ -150,90 +150,172 @@
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path713-7"
        cx="46.758823"
-       cy="67.032852"
+       cy="57.871307"
        r="3.1255574" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path713-7-2"
        cx="46.758823"
-       cy="88.349976"
+       cy="79.188431"
        r="3.1255574" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path713-5-9"
        cx="65.368904"
-       cy="76.276535"
+       cy="67.11499"
        r="3.1255574" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path713-3-2"
        cx="94.144463"
-       cy="76.276535"
+       cy="67.11499"
        r="3.1255574" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path713-56-0"
        cx="122.20558"
-       cy="76.154396"
+       cy="66.992851"
        r="3.1255574" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.165885px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 65.88827,76.276535 H 94.144463"
+       d="M 65.88827,67.114989 H 94.144463"
        id="path815-2" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path870-3"
        cx="102.74038"
-       cy="76.398674"
+       cy="67.237129"
        r="0.97967005" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path870-2-7"
        cx="108.22119"
-       cy="76.605995"
+       cy="67.44445"
        r="0.97967005" />
     <circle
        style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path870-9-5"
        cx="113.702"
-       cy="76.398674"
+       cy="67.237129"
        r="0.97967005" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:none;stroke-width:0.264583"
        x="11.982202"
-       y="77.954659"
+       y="68.793114"
        id="text1033-9"><tspan
          sodipodi:role="line"
          id="tspan1031-2"
          style="stroke-width:0.264583"
          x="11.982202"
-         y="77.954659">$D_n$</tspan></text>
+         y="68.793114">$D_n$</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:none;stroke-width:0.264583"
        x="10.217944"
-       y="54.457779"
+       y="49.474663"
        id="text1033-2"><tspan
          sodipodi:role="line"
          id="tspan1031-6"
          style="stroke-width:0.264583"
          x="10.217944"
-         y="54.457779">$B_n$</tspan></text>
+         y="49.474663">$B_n$</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:none;stroke-width:0.264583"
        x="45.252331"
-       y="48.359745"
+       y="43.376629"
        id="text1033-1"><tspan
          sodipodi:role="line"
          id="tspan1031-8"
          style="stroke-width:0.264583"
          x="45.252331"
-         y="48.359745">$4$</tspan></text>
+         y="43.376629">$4$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 46.758822,67.032851 65.888269,76.276535 46.758823,88.349976"
+       d="M 46.758822,57.871305 65.888269,67.114989 46.758823,79.18843"
        id="path1220" />
+    <circle
+       style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
+       id="path713-36"
+       cx="158.21078"
+       cy="26.73484"
+       r="3.125561" />
+    <circle
+       style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
+       id="path713-5-75"
+       cx="187.83693"
+       cy="26.867128"
+       r="3.1255574" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+       x="133.12456"
+       y="29.559711"
+       id="text1033-7"><tspan
+         sodipodi:role="line"
+         id="tspan1031-0"
+         style="stroke-width:0.264583"
+         x="133.12456"
+         y="29.559711">$H_2$</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 158.21078,26.734841 29.62615,0.132286"
+       id="path1294" />
+    <circle
+       style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
+       id="path713-7-9"
+       cx="178.61642"
+       cy="58.903355"
+       r="3.1255574" />
+    <circle
+       style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
+       id="path713-7-2-3"
+       cx="178.61642"
+       cy="80.451469"
+       r="3.1255574" />
+    <circle
+       style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
+       id="path713-3-2-0"
+       cx="166.22279"
+       cy="68.266151"
+       r="3.1255574" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+       x="137.38052"
+       y="71.778313"
+       id="text1033-9-7"><tspan
+         sodipodi:role="line"
+         id="tspan1031-2-9"
+         style="stroke-width:0.264583"
+         x="137.38052"
+         y="71.778313">$\tilde{A}_4$</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 178.61642,58.903353 -12.39363,9.362797 12.39363,12.185319"
+       id="path1464" />
+    <circle
+       style="fill:#000000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
+       id="path713-3-2-0-3"
+       cx="-190.74883"
+       cy="68.56591"
+       r="3.1255574"
+       transform="scale(-1,1)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 178.35519,59.203108 12.39363,9.362797 -12.39363,12.185319"
+       id="path1464-7" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:none;stroke-width:0.264583"
+       x="169.15022"
+       y="25.236433"
+       id="text1033-1-5"><tspan
+         sodipodi:role="line"
+         id="tspan1031-8-9"
+         style="stroke-width:0.264583"
+         x="169.15022"
+         y="25.236433">$5$</tspan></text>
   </g>
 </svg>

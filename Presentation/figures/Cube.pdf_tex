@@ -1,6 +1,6 @@
 %% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'TypesCoxeter.pdf' (pdf, eps, ps)
+%% Accompanies image file 'Cube.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{540.24440762bp}%
+    \setlength{\unitlength}{655.68979265bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,20 +50,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.34895287)%
+  \begin{picture}(1,0.61961979)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{TypesCoxeter.pdf}}%
-    \put(-0.00344288,0.28412131){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A_n$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{TypesCoxeter.pdf}}%
-    \put(0.01268917,0.07826486){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$D_n$\end{tabular}}}}%
-    \put(0.00343216,0.17962818){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$B_n$\end{tabular}}}}%
-    \put(0.1872565,0.21162437){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$4$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{TypesCoxeter.pdf}}%
-    \put(0.64831936,0.28412131){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$H_2$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{TypesCoxeter.pdf}}%
-    \put(0.67065028,0.06260162){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\tilde{A}_4$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=5]{TypesCoxeter.pdf}}%
-    \put(0.8373449,0.30680542){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$5$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Cube.pdf}}%
+    \put(0.29272464,0.58489301){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Cube.pdf}}%
+    \put(0.84050894,0.58134715){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$4$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
