@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.2 (dc2aedaf03, 2022-05-15), www.inkscape.org
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'ExampleMatroidPolytope.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{229.62976822bp}%
+    \setlength{\unitlength}{219.45554169bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,15 +50,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.83267771)%
+  \begin{picture}(1,0.9705756)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{ExampleMatroidPolytope.pdf}}%
-    \put(0.53845562,0.80110513){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1100\end{tabular}}}}%
-    \put(0.90981122,0.26428704){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1001\end{tabular}}}}%
-    \put(0.7490717,0.55899371){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1010\end{tabular}}}}%
-    \put(-0.00213387,0.54668047){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0110\end{tabular}}}}%
-    \put(0.34876833,0.22510723){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0101\end{tabular}}}}%
-    \put(0.54897417,0.00043548){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0011\end{tabular}}}}%
+    \put(0.51705786,0.93753927){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1100\end{tabular}}}}%
+    \put(0.90562996,0.37583364){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1001\end{tabular}}}}%
+    \put(0.6211658,0.66066617){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1010\end{tabular}}}}%
+    \put(-0.0022328,0.64865155){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0110\end{tabular}}}}%
+    \put(0.30619009,0.34218308){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0101\end{tabular}}}}%
+    \put(0.41772008,0.00045567){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0011\end{tabular}}}}%
   \end{picture}%
 \endgroup%

@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg2766"
-   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    sodipodi:docname="ExampleMatroidPolytope.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.3786088"
-     inkscape:cx="290.71615"
-     inkscape:cy="424.82816"
+     inkscape:cx="296.60195"
+     inkscape:cy="415.57906"
      inkscape:window-width="1904"
      inkscape:window-height="1062"
      inkscape:window-x="1927"
@@ -39,6 +39,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       style="fill:#7382b3;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 92.87271,75.292155 -34.970191,20.88029 15.930007,21.599165 47.679364,-0.003 z"
+       id="path3026" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 73.817662,117.76818 H 121.51189 L 99.766685,96.022976 H 57.806711 Z"

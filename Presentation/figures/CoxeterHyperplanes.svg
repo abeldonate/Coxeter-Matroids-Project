@@ -24,13 +24,13 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="292.0351"
-     inkscape:cy="223.44574"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="324.91557"
+     inkscape:cy="286.02469"
      inkscape:window-width="1904"
-     inkscape:window-height="1025"
-     inkscape:window-x="7"
-     inkscape:window-y="45"
+     inkscape:window-height="1062"
+     inkscape:window-x="1927"
+     inkscape:window-y="8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -40,7 +40,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#0000ff;fill-opacity:0.948782;stroke:#000000;stroke-width:0.329616"
+       style="fill:#7382b3;fill-opacity:0.948782;stroke:#000000;stroke-width:0.329616"
        id="rect427"
        width="68.940735"
        height="97.803467"
@@ -48,7 +48,7 @@
        y="-81.001068"
        transform="matrix(0.64432994,0.76474762,0,1,0,0)" />
     <rect
-       style="fill:#0000ff;fill-opacity:0.948782;stroke:#000000;stroke-width:0.852037"
+       style="fill:#7382b3;fill-opacity:0.948782;stroke:#000000;stroke-width:0.852037"
        id="rect371"
        width="116.08825"
        height="70.979301"
@@ -65,25 +65,25 @@
        d="m 92.236837,28.985315 0.546271,48.595944"
        id="path432" />
     <circle
-       style="fill:#ff0000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
+       style="fill:#8aa678;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path486"
        cx="104.79227"
        cy="46.636589"
        r="1.9413867" />
     <circle
-       style="fill:#ff0000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
+       style="fill:#8aa678;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path486-3"
        cx="55.959373"
        cy="44.317707"
        r="1.9413867" />
     <circle
-       style="fill:#ff0000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
+       style="fill:#8aa678;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path486-6"
        cx="52.916668"
        cy="88.635414"
        r="1.9413867" />
     <circle
-       style="fill:#ff0000;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
+       style="fill:#8aa678;fill-opacity:0.948782;stroke:#000000;stroke-width:0.264583"
        id="path486-7"
        cx="109.27292"
        cy="88.370834"

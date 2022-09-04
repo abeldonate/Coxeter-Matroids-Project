@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   sodipodi:docname="TypeBn.svg"
+   sodipodi:docname="TypeBnnot.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,12 +24,12 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="400.74999"
-     inkscape:cy="130.75"
-     inkscape:window-width="948"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="377.59501"
+     inkscape:cy="106.24279"
+     inkscape:window-width="947"
      inkscape:window-height="1062"
-     inkscape:window-x="2883"
+     inkscape:window-x="1927"
      inkscape:window-y="8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -62,14 +62,14 @@
     <text
        xml:space="preserve"
        style="font-size:5.48648px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:none;stroke-width:0.137162"
-       x="127.42509"
+       x="128.16516"
        y="24.96496"
        id="text1166"
        transform="scale(0.80663806,1.2397134)"><tspan
          sodipodi:role="line"
          id="tspan1164"
          style="stroke-width:0.137162"
-         x="127.42509"
+         x="128.16516"
          y="24.96496">$\hat{n}_1 = (1, 0)$</tspan></text>
     <text
        xml:space="preserve"
@@ -84,8 +84,8 @@
          y="24.154612"
          id="tspan1195">$\hat{n}_2 = (1, 1)$</tspan></text>
     <path
-       style="fill:#666ac2;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 75.156289,125.8364 75.133562,42.731017 146.55395,114.1457 134.86326,125.8364 Z"
-       id="path1109" />
+       style="fill:#ca4436;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 75.133551,42.731017 0.02273,83.105383 71.397649,-11.6907 V 54.428712 Z"
+       id="path1468" />
   </g>
 </svg>
